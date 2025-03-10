@@ -91,7 +91,7 @@ function App() {
           muted
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="assets\background.mp4" type="video/mp4" />
+          <source src="assets/background.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -102,7 +102,7 @@ function App() {
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4 py-12">
           {/* Profile Image */}
           <img
-            src="assets\Profile Pic.jpeg"
+            src="assets/Profile Pic.jpeg"
             alt="Soumalya Saha"
             className="w-40 h-40 object-cover rounded-full border-4 border-white shadow-lg mb-6"
           />
