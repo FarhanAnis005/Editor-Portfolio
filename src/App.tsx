@@ -102,7 +102,7 @@ function App() {
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-center px-4 py-12">
           {/* Profile Image */}
           <img
-            src="assets/Profile Pic.jpeg"
+            src="assets/profile-image.jpg"
             alt="Soumalya Saha"
             className="w-40 h-40 object-cover rounded-full border-4 border-white shadow-lg mb-6"
           />
