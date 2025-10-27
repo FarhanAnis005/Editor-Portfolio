@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Phone, MapPin, Instagram, Youtube } from "lucide-react";
+import { Mail, Phone, MapPin, Instagram, Youtube, Linkedin } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
@@ -27,25 +27,25 @@ function App() {
       title: "Podcast to Shorts",
       description:
         "Taking Small shorts from a long podcast and turning them into hooking and attention-grabbing shorts is the main aim. Podcast clips reach masses thereby popularizing the long form Podcast",
-      videoUrl: "https://www.youtube.com/embed/Mun3GgxDpA0",
+      videoUrl: "https://www.youtube.com/embed/X9SKPcaFu5Y",
     },
     {
-      title: "Motion Graphics",
+      title: "Brand Ad-Creatives",
       description:
-        "Best storytelling videos are created through best motion graphics. Crafted animations push views to a huge extent without having to break the bank for a studio and cast",
-      videoUrl: "https://www.youtube.com/embed/uW7WBpFn5-c",
+        "This Nescafe Reel Ad, was a passion project and also helped me in bagging the 2nd prize in an Ad Creative competition. From Scripting to Shooting to Editing was also done under 3 days.",
+      videoUrl: "https://www.youtube.com/embed/TboqHGjUa1A",
     },
     {
-      title: "Personal Branding",
+      title: "AI Performance Ads",
       description:
-        "Creating digital footprints for any specialists in any niche has become highly important in today’s world. This increases leads and clients for those particular businesses like Doctors / Real Estate Agents / Advocates / Dancers etc",
-      videoUrl: "https://www.youtube.com/embed/SmntlYlALsI",
+        "AI generated ads with in-depth prompts reduces production cost and makes the process easy and faster. Tools used for this video are Flow by Google Labs,  Gemini, Sora 2, Wan 2.2 and ChatGPT.",
+      videoUrl: "https://www.youtube.com/embed/kA9ENXO504U",
     },
     {
-      title: "AI Avatar Videos",
+      title: "Cinematic Storytelling",
       description:
-        "AI avatar videos reduce time for shooting and thus makes the video creation process easy and hassle free for the creator. Tools like Heygen helps busy entrepreneurs create content but require some touchups to keep audence hooked!",
-      videoUrl: "https://www.youtube.com/embed/DJInvFUH0aM",
+        "This silent short film goes beyond visuals, creating moments that move people and build connection. Every frame here was made to be felt.",
+      videoUrl: "https://www.youtube.com/embed/phUPs8dtgHA",
     },
   ];
 
@@ -114,20 +114,20 @@ function App() {
 
           {/* Subtitle */}
           <p className="text-2xl text-gray-300 mt-4">
-            Professional Video Editor
+            Content Marketer and Editor
           </p>
 
           {/* Description */}
           <p className="text-lg text-gray-400 mt-4 max-w-2xl">
-            Crafting compelling visual stories and bringing ideas to life
-            through the art of video editing.
+            I craft stories that build communities, drive engagement, and scale
+            brands through content and creativity.
           </p>
         </div>
       </div>
 
       {/* Clients Section */}
       <div className="relative z-10 bg-gray-800 py-12 px-6">
-        <h2 className="text-4xl font-bold mb-12 text-center">Edited For</h2>
+        <h2 className="text-4xl font-bold mb-12 text-center">Worked with</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Client 1 - Scaler School of Technology */}
@@ -322,6 +322,13 @@ function App() {
                   className="text-gray-400 hover:text-white"
                 >
                   <Youtube className="w-6 h-6" />
+                </a>
+                {/* Added LinkedIn link below */}
+                <a
+                  href="https://www.linkedin.com/in/soumalya-saha/"
+                  className="text-gray-400 hover:text-white"
+                >
+                  <Linkedin className="w-6 h-6" />
                 </a>
               </div>
             </div>
